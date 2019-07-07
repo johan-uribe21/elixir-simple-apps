@@ -6,6 +6,6 @@ defmodule Identicon.Image do
  @doc """
   creates a struct that holds our hex code and coloir.
   """
-  defstruct hex: nil, color: nil
+  defstruct hex: nil, color: nil, grid: nil, pixel_map: nil
 
 end
